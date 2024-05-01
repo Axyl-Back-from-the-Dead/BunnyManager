@@ -50,14 +50,14 @@ object ArscUtil {
      */
     fun PackageChunk.addColorResource(
         name: String,
-        color: Color,
+        color: Int,
     ): BinaryResourceIdentifier {
         return this.addResource(
             typeName = "color",
             resourceName = name,
             configurations = { true },
             valueType = BinaryResourceValue.Type.INT_COLOR_ARGB8,
-            valueData = color.toArgb(),
+            valueData = color,
         )
     }
 
