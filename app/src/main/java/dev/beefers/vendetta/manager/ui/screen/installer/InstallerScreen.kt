@@ -45,6 +45,7 @@ import dev.beefers.vendetta.manager.ui.widgets.dialog.BackWarningDialog
 import dev.beefers.vendetta.manager.ui.widgets.dialog.DownloadFailedDialog
 import dev.beefers.vendetta.manager.ui.widgets.installer.StepGroupCard
 import dev.beefers.vendetta.manager.utils.DiscordVersion
+import dev.beefers.vendetta.manager.utils.navigate
 import okhttp3.internal.toImmutableList
 import org.koin.androidx.compose.get
 import org.koin.core.parameter.parametersOf
@@ -154,6 +155,17 @@ class InstallerScreen(
                             modifier = Modifier.fillMaxWidth()
                         ) {
                             Text(stringResource(R.string.action_launch))
+                        }
+                    } else {
+                    // Show retry if fail
+                        Button(
+                            onClick = {
+                                    nav.pop()
+                                    nav.navigate(InstallerScreen(version))
+                            },
+                            modifier = Modifier.fillMaxWidth()
+                        ) {
+                            Text(stringResource(R.string.action_retry))
                         }
                     }
 
