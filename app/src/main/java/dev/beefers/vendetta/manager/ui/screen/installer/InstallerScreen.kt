@@ -178,6 +178,13 @@ class InstallerScreen(
                             Text(stringResource(R.string.action_clear_cache))
                         }
                     }
+                    FilledTonalButton(
+                        enabled = viewModel.runner.cacheExist && installSuccessful,
+                        onClick = { viewModel.reinstall() },
+                        modifier = Modifier.fillMaxWidth()
+                    ) {
+                        Text(stringResource(R.string.action_reinstall))
+                    }
                 }
             }
         }
