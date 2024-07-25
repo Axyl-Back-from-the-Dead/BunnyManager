@@ -71,6 +71,7 @@ Here are a few things you can do:
 
 - [@rushii](https://github.com/rushiiMachine/) - For the installer, zip library and a portion of patching.
 - [@Xinto](https://github.com/X1nto/) - For the preference manager.
+- [@Wing](https://github.com/wingio) - For the overall maintenance of the upstream repository.
 
 ## License
 
