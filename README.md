@@ -2,7 +2,7 @@
 > This application is not affiliated with or endorsed by Discord Inc. Use of modified versions of the Discord app may violate Discord’s terms of service. Use at your own risk.
 
 > [!CAUTION]
-> The only official place to download Bunny Manager is this GitHub repository. Any other website offering downloads or claiming to be us are not controlled by us.
+> The only official places to download BunnyManager are this GitHub repository and [this repository](https://github.com/pyoncord/Bunny#installing). Any other website offering downloads or claiming to be us are not controlled by us.
 
 <div align="center">
 
