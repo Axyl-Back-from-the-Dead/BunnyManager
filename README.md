@@ -37,7 +37,7 @@ Easily install Bunny on Android
 
 ## Overview
 
-BunnyManager is a user-friendly application for Android that allows you to download and manage modified versions of the Discord app. Enhance your Discord experience with custom features and tweaks that are not available in the official app.
+BunnyManager is a user-friendly application for Android that allows you to download and manage modified versions of the Discord app for **non-rooted devices.** Enhance your Discord experience with custom features and tweaks that are not available in the official app.
 
 ## Build
 
